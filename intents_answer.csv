@@ -1,0 +1,18 @@
+intent,return
+init1,Hello there!
+music_convos,what kind of music u like? 
+strange_answer,"sry for the answer , be more clear"
+warming_up,fine and u
+weather_query,it is cool today
+work_convos,what do u work
+school_convos,what do u study
+init2,"I am Jussy! , I am still in development and I don't know much... But feel free to ask me something (please don't insult me"
+affirm,Ook
+greet,Hello there!
+restaurant_search,There are some nice restaurants around here
+goodbye,Pleasure talking to you. Goodbye
+null,"sry for the answer , be more clear"
+goodbye,Bye Bye
+goodbye,Bye 
+goodbye,See You later :)
+goodbye,Have a good day bye :) 
