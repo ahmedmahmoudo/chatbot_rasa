@@ -229,10 +229,19 @@
             if(messagesContainer.hasClass("theme1")){
                 console.log("Has theme1, switching to theme2");
                 messagesContainer.removeClass("theme1").addClass("theme2");
+                $('body').css("background", "#2f3640");
+                $('.chat_window').addClass("d_theme");
+                /*$('.top_menu').css("background-color", "#353b48");
+                $('.chat_window').css('border-color', "#353b48");
+                $(".toggle-wrapper").css("color", "#fff");*/
             }
             else if(messagesContainer.hasClass("theme2")){
                 console.log("Has theme2, switching to theme1");
                 messagesContainer.removeClass("theme2").addClass("theme1");
+                $('body').css("background", "");
+                $('.chat_window').removeClass("d_theme");
+               /* $('.top_menu').css("background-color", "");
+                $('.toggle-wrapper').css("color", "#909090");*/
             }
         });
 

@@ -228,7 +228,47 @@ body {
 .messages.theme2 .message.left .text {
   color: white;
 }
+
+.messages.theme2 {
+  background-color: #2f3542;
+}
 /************************/
+
+
+/***************** Dark Theme *************/
+
+.d_theme {
+  background-color: #2f3542;
+}
+
+.d_theme .top_menu, .d_theme .bottom_wrapper {
+
+  background-color: #353b48;
+}
+
+.d_theme .chat_window {
+  border-color: #353b48;
+}
+
+.d_theme .toggle-wrapper, .d_theme .title {
+  color: #fff;
+}
+
+
+.d_theme .message_input_wrapper, .d_theme .message_input {
+  background-color: #2f3542 !important;
+  border-color: #2f3542 !important;
+  color: white !important;
+}
+
+.d_theme .send_message {
+  background-color: #57606f !important;
+  border-color: #57606f !important;
+}
+
+
+
+/*******************************************/
 
 .messages .message.left .text_wrapper.no-tick::after,
 .messages .message.left .text_wrapper.no-tick::before {
