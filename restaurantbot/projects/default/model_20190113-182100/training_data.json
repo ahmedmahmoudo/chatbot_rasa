@@ -1,0 +1,496 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "variable_search",
+        "text": "i'm looking for information about"
+      },
+      {
+        "intent": "variable_search",
+        "text": "I want to see"
+      },
+      {
+        "intent": "variable_search",
+        "text": "I am searching for information about"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "I am searching for accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 37,
+            "end": 53,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "I am searching for information about accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 51,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "I am looking for information about accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "i'm looking for accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "show me accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "define accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "explain accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "what is accrued interest"
+      },
+      {
+        "intent": "variable_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "accrued interest",
+            "entity": "search_term"
+          }
+        ],
+        "text": "Explain to me what accrued interest is"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good one"
+      },
+      {
+        "intent": "school_convos",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "school",
+            "entity": "location"
+          }
+        ],
+        "text": "i go to school"
+      },
+      {
+        "intent": "school_convos",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "school",
+            "entity": "location"
+          }
+        ],
+        "text": "i love my school"
+      },
+      {
+        "intent": "work_convos",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "work",
+            "entity": "location"
+          }
+        ],
+        "text": "i go to work"
+      },
+      {
+        "intent": "work_convos",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "work",
+            "entity": "location"
+          }
+        ],
+        "text": "i love work"
+      },
+      {
+        "intent": "weather_query",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "weahter",
+            "entity": "weather"
+          }
+        ],
+        "text": "how is the weather today?"
+      },
+      {
+        "intent": "weather_query",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "what do you think about weather today?"
+      },
+      {
+        "intent": "warming_up",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "warming_up",
+        "text": "how are you?"
+      },
+      {
+        "intent": "warming_up",
+        "text": "how are you?"
+      },
+      {
+        "intent": "strange_answer",
+        "text": "I don't understand"
+      },
+      {
+        "intent": "strange_answer",
+        "text": "strange_answer"
+      },
+      {
+        "intent": "strange_answer",
+        "text": "what do u mean?"
+      },
+      {
+        "intent": "music_convos",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "music",
+            "entity": "music"
+          }
+        ],
+        "text": "i love music"
+      },
+      {
+        "intent": "music_convos",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "music",
+            "entity": "music"
+          }
+        ],
+        "text": "i am a music lover"
+      },
+      {
+        "intent": "open_account",
+        "text": "Can I open a bank account online?"
+      },
+      {
+        "intent": "open_account",
+        "text": "What's needed to open a bank account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "How much money do you need to open a bank account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Can I open a checking account with no money?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Do you need a job to open a bank account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Do banks check credit to open a checking account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Which banks pay you to open an account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Which bank is best for opening account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "What's the best bank account to open?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Do banks give you money for opening an account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "How long does it take to open a bank account online?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Can you open a bank account without an ID?"
+      },
+      {
+        "intent": "open_account",
+        "text": "How much does it cost to open a bank account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Do you need good credit to open bank account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Can anyone open a bank account?"
+      },
+      {
+        "intent": "open_account",
+        "text": "Does opening a new bank account hurt credit?"
+      },
+      {
+        "intent": "open_account",
+        "text": "What banks pay you to open an account 2017?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Can you close a bank account online?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Does it cost to close a savings account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Is it bad to close a savings account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "How do I close my savings account at Bank ?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Can you take all your money out of a savings account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Is there a fee to close a bank account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Does your credit score drop when you close a bank account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Will my credit score go down if I close a bank account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "What happens when you close a bank account with negative balance?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Is it necessary to close bank account?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Does closing a debit account hurt your credit?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Does a closed account affect your credit score?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Does closing a loan hurt your credit?"
+      },
+      {
+        "intent": "close_account",
+        "text": "Should I close unused bank accounts?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "What is the average interest rate on a savings account?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Which banks have the best savings interest rates?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "How much interest will I get on $1000 a year in a savings account?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Why do some banks have higher interest rates?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Which bank has the best savings interest rate?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "What banks pay the most interest on savings accounts?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "How can I get the most interest on my money?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Are high yield savings accounts worth it?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "How much interest will 1 million dollars earn?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Is it better to have interest paid monthly or annually?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Does money double every 7 years?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Which bank has highest savings interest rate?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "Why do banks not pay interest anymore?"
+      },
+      {
+        "intent": "interest_rate",
+        "text": "How can I get higher interest on my savings?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "accrued interest",
+        "synonyms": [
+          "ACCRD_INTRST"
+        ]
+      }
+    ]
+  }
+}

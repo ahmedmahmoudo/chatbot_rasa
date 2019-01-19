@@ -46,7 +46,7 @@ io.on('connection', function (socket) {
   });
 });
 
-var port = 8000;
+var port = 8080;
 server.listen(port, function () {
   console.log('Chatbot is listening on port ' + port + '!')
 });

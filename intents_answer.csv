@@ -2,17 +2,18 @@ intent,return
 init1,Hello there!
 music_convos,what kind of music u like? 
 strange_answer,"sry for the answer , be more clear"
-warming_up,fine and u
-weather_query,it is cool today
-work_convos,what do u work
-school_convos,what do u study
-init2,"I am Jussy! , I am still in development and I don't know much... But feel free to ask me something (please don't insult me"
-affirm,Ook
+warming_up,"I am doing good , How about you ?"
+weather_query,It's sunny day .
+work_convos,what do you do for work
+school_convos,what do you  study
+init2,"I am Jessy! , I am still in development"
+affirm,OK
 greet,Hello there!
 restaurant_search,There are some nice restaurants around here
 goodbye,Pleasure talking to you. Goodbye
-null,"sry for the answer , be more clear"
+null,"Sorry ,I am still under devlopment and not trained on this."
 goodbye,Bye Bye
 goodbye,Bye 
-goodbye,See You later :)
-goodbye,Have a good day bye :) 
+goodbye,See You later
+goodbye,Have a good day
+open_account,"Download our requirement guide here to print off the full list of all personal ID documents you can use to open an account, or simply scroll down to see our requirements."
