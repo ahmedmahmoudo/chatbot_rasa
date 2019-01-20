@@ -2,6 +2,7 @@
 The project features a simple Rasa NLU based Chatbot developed with Node.js, Express and Socket.io as backend and HTML, CSS and Javascript with Jquery on the frontend side.
 
 ![alt text](https://raw.githubusercontent.com/Gabryxx7/chatbot-node-rasa/master/imgs/screenshot1.PNG)
+![dark_theme](https://user-images.githubusercontent.com/42607930/51437810-eba5ae80-1cab-11e9-81e4-1fee1ac8c558.png)
 
 # Backend
 The backend side is quite simple. The server uses Socket.io for the communication between the user and the bot, everytime someone accesses the website, it will create a new socket and will immediately send out two greeting messages to the user.
